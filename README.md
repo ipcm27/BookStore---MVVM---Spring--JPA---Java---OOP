@@ -1,4 +1,4 @@
-# BookStore MVVM Spring JPA Java OOP
+# BookStore MVC Spring JPA Java OOP
 
 
 
@@ -25,9 +25,9 @@ The project is a simple online bookstore application that allows users to browse
 
 <p>We can use Kafka to implement a publish-subscribe messaging system. When a user places an order, we can use Kafka to publish an order message to a Kafka topic. The order message can contain information about the user, the items ordered, and the total cost. We can then use a Kafka consumer to consume the order message and process it.</p>
 
-<h3>MVVM:</h3>
+<h3>MVC:</h3>
 
-<p>We can use the Model-View-ViewModel (MVVM) architecture to structure the application. We can create a "Book" model class that contains information about a book, such as title, author, and price. We can then create a "BookViewModel" class that interacts with the "Book" model class and provides data to the "Book" view. The "Book" view is responsible for displaying the book information to the user.</p>
+<p>We can use the Model-View-Controller (MVC) architecture to structure the application. We can create a "Book" model class that contains information about a book, such as title, author, and price. We can then create a "BookController" class that interacts with the "Book" model class and provides data to the "Book" view. The "Book" view is responsible for displaying the book information to the user, and the "BookController" is responsible for handling user input, such as adding a book to the cart or placing an order.</p>
 
 <h3>Spring:</h3>
 <p>
